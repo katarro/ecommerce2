@@ -1,4 +1,5 @@
 <?php
+
 $valid_discount_codes = ['CODE10'];
 
 if (isset($_POST['discount_code'])) {
