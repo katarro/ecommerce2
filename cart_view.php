@@ -100,7 +100,10 @@ $(function(){
                     // Muestra un mensaje de error si el código de descuento no es válido
                     alert('Código de descuento no válido');
                 }
-            }
+            },
+			error: function(jqXHR, textStatus, errorThrown) {
+        	console.log(textStatus, errorThrown);
+    }
         });
     });
 
